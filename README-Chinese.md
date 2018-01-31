@@ -33,9 +33,9 @@ npm install pomelo-loader
 
 ##用法
 ``` javascript
-var Loader = require('pomelo-loader');
+let Loader = require('pomelo-loader');
 
-var res = Loader.load('.');
+let res = Loader.load('.');
 console.log('res: %j', res);
 ```
 模块定义成函数，加载

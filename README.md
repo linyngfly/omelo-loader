@@ -36,9 +36,9 @@ npm install pomelo-loader
 
 ##Usage
 ``` javascript
-var Loader = require('pomelo-loader');
+let Loader = require('pomelo-loader');
 
-var res = Loader.load('.');
+let res = Loader.load('.');
 console.log('res: %j', res);
 ```
 

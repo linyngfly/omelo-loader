@@ -1,15 +1,15 @@
-var Loader = require('../');
-var should = require('should');
-var fs = require('fs');
+let Loader = require('../');
+let should = require('should');
+let fs = require('fs');
 
-var path = __dirname + '/mock-remote/area/';
+let path = __dirname + '/mock-remote/area/';
 
-var WAIT_TIME = 20;
+let WAIT_TIME = 20;
 
 describe('loader', function() {
 	describe('#load', function() {
 		it('should load all modules under the path but sub-directory', function() {
-			var services = Loader.load(path);
+			let services = Loader.load(path);
 			should.exist(services);
 
 			services.should.have.property('addOneRemote');
@@ -34,9 +34,9 @@ describe('loader', function() {
 		});
 		
 		it('should invoke functions of loaded object successfully', function(done) {
-			var callbackCount = 0, sid = 'area-server-1';
-			var context = {id: sid};
-			var services = Loader.load(path, context);
+			let callbackCount = 0, sid = 'area-server-1';
+			let context = {id: sid};
+			let services = Loader.load(path, context);
 			should.exist(services);
 
 			services.addOneRemote.doService(1, function(err, res) {
@@ -67,14 +67,14 @@ describe('loader', function() {
 		});
 		
 		it('should throw an error if the path is empty', function() {
-			var path = './mock-remote/connector';
+			let path = './mock-remote/connector';
 			(function() {
 				Loader.load(path);
 			}).should.throw();
 		});
 		
 		it('should throw exception if the path dose not exist', function() {
-			var path = './some/error/path';
+			let path = './some/error/path';
 			(function() {
 				Loader.loadPath(path);
 			}).should.throw();
