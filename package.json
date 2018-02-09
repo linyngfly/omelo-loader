@@ -3,7 +3,7 @@
   "version": "0.0.6",
   "private": false,
   "deprecated": false,
-  "description": "Load codes for pomelo based on the convention over configuration rules",
+  "description": "Load codes for omelo based on the convention over configuration rules",
   "homepage": "https://github.com/linyngfly/omelo-loader",
   "repository": {
     "type": "git",
@@ -23,8 +23,8 @@
   ],
   "keywords": [
     "omelo-loader",
-    "pomelo-loader",
-    "pomelo",
+    "omelo-loader",
+    "omelo",
     "framework",
     "game",
     "web",

@@ -1,8 +1,8 @@
-#pomelo-loader - loader module for pomelo
+#omelo-loader - loader module for omelo
 
-Load codes for pomelo based on the convention over configuration rules.
+Load codes for omelo based on the convention over configuration rules.
 
-pomelo-rpc could load modules in batch but not load the sub-directory recursively.
+omelo-rpc could load modules in batch but not load the sub-directory recursively.
 
 + Tags: node.js
 
@@ -21,7 +21,7 @@ the return result would be: ```{test: require('./lib/a')}```
 
 Module definiation
 
-If the module exported as a function, pomelo-loader would take it as a factory method and generate a new instance of module by calling the function. And it would return the module directly for other situation.
+If the module exported as a function, omelo-loader would take it as a factory method and generate a new instance of module by calling the function. And it would return the module directly for other situation.
 
 ```javascript
 module.exports = function(context) {
@@ -31,7 +31,7 @@ module.exports = function(context) {
 
 ##Installation
 ```
-npm install pomelo-loader
+npm install omelo-loader
 ```
 
 ##Usage

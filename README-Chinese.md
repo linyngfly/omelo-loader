@@ -1,7 +1,7 @@
-#pomelo-loader - loader module for pomelo
-pomelo中使用Convention over Configuration的形式管理工程目录，不同的功能按约定放在不同的目录下。pomelo-loader为pomelo提供了按目录加载模块的功能。
+#omelo-loader - loader module for omelo
+pomelo中使用Convention over Configuration的形式管理工程目录，不同的功能按约定放在不同的目录下。omelo-loader为pomelo提供了按目录加载模块的功能。
 
-pomelo-rpc可以批量加载指定目录下的模块，挂到一个空对象下返回（但不会递归加载子目录），同时提供模块命名机制。
+omelo-rpc可以批量加载指定目录下的模块，挂到一个空对象下返回（但不会递归加载子目录），同时提供模块命名机制。
 
 + Tags: node.js
 
@@ -28,7 +28,7 @@ module.exports = function(context) {
 
 ##安装
 ```
-npm install pomelo-loader
+npm install omelo-loader
 ```
 
 ##用法
