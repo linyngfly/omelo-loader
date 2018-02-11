@@ -1,6 +1,6 @@
 {
   "name": "omelo-loader",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "private": false,
   "deprecated": false,
   "description": "Load codes for omelo based on the convention over configuration rules",
@@ -22,7 +22,6 @@
     }
   ],
   "keywords": [
-    "omelo-loader",
     "omelo-loader",
     "omelo",
     "framework",
