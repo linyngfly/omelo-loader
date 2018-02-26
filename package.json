@@ -1,6 +1,6 @@
 {
   "name": "omelo-loader",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "private": false,
   "deprecated": false,
   "description": "Load codes for omelo based on the convention over configuration rules",
